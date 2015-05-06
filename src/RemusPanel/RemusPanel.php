@@ -60,7 +60,7 @@ $('#remus_panel > div.panel_body > ul > li > a').click(function (e) {
     
     private static function render_area() {
         
-        $data = '<div class="tab-content" style="max-height:400px;overflow-y:scroll;">';
+        $data = '<div class="tab-content" style="height:300px;overflow-y:scroll;">';
         
         foreach (self::$_data as $key => $value) {
             if($key == 'log'){
