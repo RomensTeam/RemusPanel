@@ -1,0 +1,38 @@
+/*#remus_panel {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 10px 0 10px;
+    background-color: #428bca;
+}
+#remus_panel > div.panel_head {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+#remus_panel > div.panel_body {
+    background-color: #fff;
+}
+#remus_panel .nav > * {
+    background-color: #fff;
+    text-transform: capitalize;
+}
+#remus_panel .tab-pane.active {
+    padding: 5px 10px;
+    height: 500px;
+    overflow-y: scroll;
+    border: 2px solid black;
+}
+#remus_panel .tab-pane.seduce {
+    padding: 0;
+}
+#remus_panel > div.panel_body > ul > li.active > a {
+    background-color: #000;
+    color: #fff;
+}
+#remus_panel > div.panel_head > h3 {
+    font-family: 'Calibri';
+    margin: 5px;
+}*/
+
+#remus_panel {
+    margin-bottom: 0;
+}
