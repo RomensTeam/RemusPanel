@@ -1,2 +1,7 @@
 # RemusPanel
-RemusPanel - panel for testing
+**RemusPanel** - панель для тестирования Remus.
+
+#### Константы ####
+**REMUSPANEL** (`bool`) - отвечает за подключение панели 
+
+----------
