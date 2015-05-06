@@ -144,7 +144,7 @@ $('#remus_panel > div.panel_body > ul > li > a').click(function (e) {
         
         echo '<div class="container navbar-fixed-bottom"><div class="panel panel-default" id="remus_panel" style="border: 1px solid rgb(221, 221, 221);box-shadow: 0 0 3px rgb(230, 230, 230); margin-bottom:0; border-radius:0;">
             <div class="panel_head panel-heading">
-            <h3  class="panel-title" style="font-size:1.5em;">'.$head.' 
+            <h3  class="panel-title" style="font-size:1.5em;">'.$head.' <small>Testing panel</small> 
                 <div class="btn-group-xs pull-right">
                 <span class=" btn btn-default" onclick="$(\'#remus_panel .panel-body\').toggle();">_</span>
                 <span class="btn btn-default" onclick="$(\'#remus_panel\').text(\'\')">X</span>
