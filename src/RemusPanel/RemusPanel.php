@@ -64,7 +64,7 @@ $('#remus_panel > div.panel_body > ul > li > a').click(function (e) {
         
         foreach (self::$_data as $key => $value) {
             if($key == 'log'){
-                $data .= '<div class="tab-pane seduce" id="'.$key.'">'.$value.'</div>';
+                $data .= '<div class="tab-pane seduce active" id="'.$key.'">'.$value.'</div>';
             } else {
                 $data .= '<div class="tab-pane" id="'.$key.'">'.$value.'</div>';
             }
@@ -206,15 +206,12 @@ $('#remus_panel > div.panel_body > ul > li > a').click(function (e) {
                 case 'error':
                     self::$_data['log'] .= '<tr class="danger">';
                     break;
-                
                 case 'warning':
                     self::$_data['log'] .= '<tr class="warning">';
                     break;
-                
                 case 'success':
                     self::$_data['log'] .= '<tr class="success">';
                     break;
-                
                 default:
                     self::$_data['log'] .= '<tr>';
                     break;
